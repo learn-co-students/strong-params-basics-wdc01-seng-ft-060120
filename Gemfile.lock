@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/faker-ruby/faker.git
+  revision: 605b405ff9804df525ced6186991b5313f40e0a9
+  branch: master
+  specs:
+    faker (2.13.0)
+      i18n (>= 1.6, < 2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -192,6 +200,7 @@ DEPENDENCIES
   capybara
   coffee-rails
   database_cleaner
+  faker!
   jbuilder
   jquery-rails
   rails (= 5.0.7.1)
@@ -204,4 +213,4 @@ DEPENDENCIES
   uglifier
 
 BUNDLED WITH
-   2.0.1
+   2.1.4
